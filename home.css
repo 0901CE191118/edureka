@@ -1,6 +1,7 @@
 .background{
     display: inline-border;
-    height: 300px;
+    width: 100%;
+    height: 70%;
 
 }
 
@@ -12,9 +13,10 @@
      border-radius: 50%;
      text-align: center;
      font-size: 71px;
-     margin-left: 15%;
+     margin-left: 18%;
 
 }
+
 .align{
     position:absolute;
     top:20%;
@@ -22,18 +24,22 @@
     display:inline-block;
     width:100%;
 }
+
 .heading{
     color:aliceblue;
     font-size: 21px;
     font-weight: bold;
-    margin-left: 2%;
+    margin-left: 8%;
 
 }
+
 .loc{
     width:180px;
     height: 26px;
-    margin-right: 2%;
+    margin-left:8%;
+
 }
+
 .search{
     width: 200px;
     height: 26px;
@@ -41,6 +47,7 @@
 
 
 }
+
 .search-heading{
     font-size: 20px;
     font-family: arial;
@@ -49,6 +56,7 @@
     margin-left: 50px;
     margin-top: 30px;
 }
+
 .search-subheading{
     font-size: 12px;
     font-family: arial;
@@ -57,28 +65,48 @@
     margin-left: 50px;
     margin-top: 4px;
 }
+
 .row{
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+
  .item{
-    display: block;
+    display: inline-block;
     width:360px;
     height: 160px;
-    order: solid thun red;
- }
- .item-left{
-    margin-left: 25px;
-    margin-top: 30px;
+    border: solid thin red;
+    margin: 10px;
     
+ }
+
+ .item-left{
+    display: inline-block;
+    width: 40%;
+    
+ }
+ .item-right{
+    display: inline-block;
+    width: 40%;
+    vertical-align:top;
+    padding-left: 29px;
+    padding-top: 27px;
  }
  
- .item-right{
-    display: block;
- }
+
  .item-right-header{
+ font-size: 20px;
+ font-weight: 700;
+ color: rgb(27, 18, 35);
+ font-family: arial;
+ padding-top: 2px;
 
  }
+
  .item-right-content{
     
+    font-size: 14px;
+    color:chocolate;
+    font-family: arial;
+    padding-top: 4%;
  }
